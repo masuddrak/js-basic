@@ -1,10 +1,12 @@
-//strig valu some 
-var onionPrice="20.85";
-var eggPrice="8.50";
+//type of keyword {typeof}
+var names="sakib";
+var name2=22;
+var name3=22.2;
+var name4=true;
+var name5;
 
-onionPrice=parseInt(onionPrice);
-eggPrice=parseInt(eggPrice);
-
-var totalEggOnionPrice=onionPrice+eggPrice;
-
-console.log(totalEggOnionPrice);
+console.log(typeof names);
+console.log(typeof name2);
+console.log(typeof name3);
+console.log(typeof name4);
+console.log(typeof name5);
