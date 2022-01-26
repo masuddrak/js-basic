@@ -1,6 +1,10 @@
-var price=10;
-console.log(price)
-price=price-1
-price -=1;
-price--;
-console.log(price)
+//strig valu some 
+var onionPrice="20.85";
+var eggPrice="8.50";
+
+onionPrice=parseInt(onionPrice);
+eggPrice=parseInt(eggPrice);
+
+var totalEggOnionPrice=onionPrice+eggPrice;
+
+console.log(totalEggOnionPrice);
